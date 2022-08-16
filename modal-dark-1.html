@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            epilogue: ["Epilogue", "sans-serif"],
+            fontFamily: {
+              roboto: ["Roboto", "sans-serif"],
+              OpenSans: ["OpenSans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#000000]">
+    <div
+      class="font-epilogue mx-auto w-[378px] h-[516px] shadow-xl font-epilogue my-[300px]"
+    >
+      <div>
+        <h1 class="font-[700] text-[36px] text-[#FFFFFF] w-[384px]">
+          Let’s get you started
+        </h1>
+      </div>
+      <div>
+        <p class="font-[500] text-[14px] text-[#FFFFFF] mt-[8px]">
+          Start learning for free
+        </p>
+      </div>
+      <div>
+        <h5
+          class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px] text-[#FFFFFF]"
+        >
+          Firstname
+        </h5>
+      </div>
+      <div
+        class="px-[14.5px] py-[8px] font-opensans border-[1px] border-[#667085] rounded-[8px] text-[#D0D5DD] rounded-[8px] w-[378px] h-[49px]"
+      >
+        <input
+          class="w-full bg-transparent"
+          placeholder="Enter your firstname"
+        />
+      </div>
+      <div>
+        <h5
+          class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px] text-[#FFFFFF]"
+        >
+          Last name
+        </h5>
+      </div>
+      <div
+        class="px-[14.5px] py-[8px] font-opensans border-[1px] border-[#667085] rounded-[8px] text-[#D0D5DD] rounded-[8px]"
+      >
+        <input
+          class="w-full bg-transparent"
+          placeholder="Enter your lastname"
+        />
+      </div>
+
+      <div>
+        <h5
+          class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px] text-[#FFFFFF]"
+        >
+          Email
+        </h5>
+      </div>
+      <div
+        class="px-[14.5px] py-[8px] font-opensans border-[1px] border-[#667085] rounded-[8px] text-[#D0D5DD] rounded-[8px]"
+      >
+        <input
+          class="w-full bg-transparent"
+          placeholder="Enter your email address"
+        />
+      </div>
+
+      <div class="flex justify-between mb-[8px] mt-[24px]">
+        <h5 class="font-opensans font-[600] text-[12px] text-[#FFFFFF]">
+          Password
+        </h5>
+        <p class="font-opensans font-400 text-[12px] text-[#98A2B3]">
+          Password must be at least 8 characters long
+        </p>
+      </div>
+      <div
+        class="px-[14.5px] py-[8px] font-opensans border-[1px] border-[#667085] rounded-[8px] text-[#D0D5DD] w-[378px] h-[49px]"
+      >
+        <input
+          class="w-full bg-transparent"
+          placeholder="Create your UriZe password"
+        />
+      </div>
+      <div>
+        <button
+          class="mr-8 py-[10px] text-center rounded-[8px] bg-[#C6D900] mt-[40px] w-[378px]"
+        >
+          Start learning
+        </button>
+      </div>
+      <div>
+        <p
+          class="font-[400] text-[14px] text-[#98A2B3] mt-[40px] w-[58px] h-[21px] mx-auto"
+        >
+          Step 2/2
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

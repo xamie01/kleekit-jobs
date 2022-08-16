@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            epilogue: ["Epilogue", "sans-serif"],
+            fontFamily: {
+              roboto: ["Roboto", "sans-serif"],
+              OpenSans: ["OpenSans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Modal-1</title>
+  </head>
+  <body>
+    <div
+      class="mx-auto w-[571px] h-[771px] shadow-xl font-epilogue rounded-[8px] my-[130.5px]"
+    >
+      <div class="w-[378px] mx-auto pt-[71px]">
+        <h1 class="font-[700] text-[24px] mb-[36px]">
+          What do you want to learn?
+        </h1>
+        <h5 class="mb-[8px] font-opensans font-[600] text-[12px]">Email</h5>
+        <div
+          class="px-[14.5px] py-[8px] border-[1px] border-[#C2C9D1] rounded-[8px]"
+        >
+          <input placeholder="Enter your email" />
+        </div>
+
+        <div>
+          <h5 class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px]">
+            Courses/Topic
+          </h5>
+        </div>
+        <div
+          class="px-[14.5px] py-[8px] border-[1px] border-[#C2C9D1] rounded-[8px]"
+        >
+          <input class="w-full" placeholder="What do you want to learn" />
+        </div>
+
+        <div>
+          <h5 class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px]">
+            Category
+          </h5>
+        </div>
+        <div
+          class="px-[14.5px] py-[8px] border-[1px] border-[#C2C9D1] rounded-[8px]"
+        >
+          <input class="w-full" placeholder="Select course/topic category" />
+        </div>
+
+        <div>
+          <h5 class="mb-[8px] mt-[24px] font-opensans font-[600] text-[12px]">
+            Creator
+          </h5>
+        </div>
+        <div
+          class="px-[14.5px] py-[8px] border-[1px] border-[#C2C9D1] rounded-[8px]"
+        >
+          <input class="w-full" placeholder="What’s the creator name?" />
+        </div>
+
+        <div class="flex justify-between mb-[8px] mt-[24px]">
+          <h5 class="font-opensans font-[600] text-[12px]">Creator handle</h5>
+          <p class="font-opensans font-400 text-[12px] text-[rgba(0,0,0,0.5)]">
+            Twitter, Instagram or tiktok
+          </p>
+        </div>
+        <div
+          class="px-[14.5px] py-[8px] border-[1px] border-[#C2C9D1] rounded-[8px]"
+        >
+          <input
+            class="w-full"
+            placeholder="What’s their social media handle"
+          />
+        </div>
+        <button
+          class="mt-[36px] px-[164.5px] py-[10px] rounded-[8px] bg-[#C6D900]"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
